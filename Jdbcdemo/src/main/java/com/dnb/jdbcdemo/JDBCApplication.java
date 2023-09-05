@@ -79,6 +79,7 @@ public class JDBCApplication {
                                 account.getBalance() + " " + account.getAccountCreateDate() + " " + account.getDob() + " " + account.isAccountStatus());
                     }else{
                         System.out.println("No account found for this " + accountId + " account id.");
+                        System.out.println("Good");
                     }
                     break;
 
